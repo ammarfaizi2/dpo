@@ -1,0 +1,118 @@
+{
+	"architecture" : 
+	{
+		"bitSize" : 32,
+		"endian" : "little",
+		"name" : "x86"
+	},
+	"classes" : [],
+	"date" : "2018-07-24",
+	"decompParams" : 
+	{
+		"abiPaths" : [],
+		"frontEndOutputFile" : "/home/ammarfaizi2/project/dpo/ransom.dump.a.c.frontend.ll",
+		"frontendFunctions" : [],
+		"keepAllFuncs" : false,
+		"libraryTypeInfoPaths" : 
+		[
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/types/arm.json",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/types/cstdlib.json",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/types/linux.json",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/types/windows.json",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/types/windrivers.json"
+		],
+		"ordinalNumDirectory" : "/home/ammarfaizi2/rd/c/bin/../share/retdec/support/x86/ords/",
+		"outputFile" : "/home/ammarfaizi2/project/dpo/ransom.dump.a.c",
+		"selectedDecodeOnly" : false,
+		"selectedFunctions" : [],
+		"selectedNotFoundFncs" : [],
+		"selectedRanges" : [],
+		"staticSignPaths" : 
+		[
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/kb2.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/kb2005.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/kb2006.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/kb2007.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/kb2009.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/kb2010.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/kb2011.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/kb2012.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/kb2013.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/kb2014.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/kb3.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/kb4.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/kb5.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/kb6.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/kb7.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/syskb2.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/syskb2005.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/syskb2006.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/syskb2007.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/syskb2009.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/syskb2010.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/syskb2011.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/syskb2012.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/syskb2013.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/syskb2014.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/syskb3.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/syskb4.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/syskb5.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/syskb6.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/delphi/syskb7.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/ucrt/x86-debug.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/ucrt/x86.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/x86-debug-vs-2003.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/x86-debug-vs-2005.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/x86-debug-vs-2008.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/x86-debug-vs-2010.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/x86-debug-vs-2012.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/x86-debug-vs-2013.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/x86-debug-vs-2015.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/x86-debug-vs-2017.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/x86-mingw-4.7.3.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/x86-vs-2003.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/x86-vs-2005.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/x86-vs-2008.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/x86-vs-2010.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/x86-vs-2012.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/x86-vs-2013.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/x86-vs-2015.yara",
+			"/home/ammarfaizi2/rd/c/bin/../share/retdec/support/generic/yara_patterns/static-code/pe/32/le/x86/x86-vs-2017.yara"
+		],
+		"userStaticSignPaths" : [],
+		"verboseOut" : false
+	},
+	"entryPoint" : "0x45b45e",
+	"fileFormat" : "pe32",
+	"fileType" : "executable",
+	"functions" : [],
+	"globals" : [],
+	"imageBase" : "0x400000",
+	"inputFile" : "/home/ammarfaizi2/project/dpo/ransom.exe",
+	"languages" : 
+	[
+		{
+			"bytecode" : true,
+			"name" : "CIL/.NET"
+		}
+	],
+	"patterns" : [],
+	"registers" : [],
+	"segments" : [],
+	"structures" : [],
+	"time" : "21:54:45",
+	"tools" : 
+	[
+		{
+			"additional" : "Visual Studio 2005",
+			"heuristics" : false,
+			"identicalSignificantNibbles" : 103,
+			"name" : "msvc",
+			"percentage" : 99.038461538461547,
+			"totalSignificantNibbles" : 104,
+			"type" : "compiler",
+			"version" : "8.0"
+		}
+	],
+	"vtables" : []
+}
